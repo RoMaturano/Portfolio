@@ -1,0 +1,30 @@
+{
+    "profile":{
+        "rol":"Full Stack Developer",
+        "description":"A year ago I joined this new world of IT.<br/>It really is something exciting, I really like to continue developing myself a little more each time in what I already know as well as learning new things.<br/>I would like some day it will be me who helps others in these first steps."
+    },
+    "experience":{
+        "first-job-title":"BackEnd/Full Stack",
+        "first-job-date":" April 2023- May 2023",
+        "first-job-description":"que hice en el proyecto"
+    },
+    "proyects":{
+        "first-proyect-title":"E-commerce",
+        "first-proyect-description":"Carrying out a group project with 6 colleagues using the scrum methodology to create an e-commerce website for sportswear products.",
+        "first-proyect-description2":"Functions: List of products-Detail of them-Create a new product by the administrator-Third-party login- User profile-Administrator actions: create a new administrator- ban a client- disable a product due to stock- stock inquiry- inquiry of orders made-Cart-Payment route."
+    },
+    "card":{
+        "card-title":"Developer",
+        "card-time":"Months of experience"
+
+    },
+    "card2":{
+        "card-title":"Soft skills",
+        "card-time":"Years of experience",
+        "skill1":"Teamwork",
+        "skill2":"Empathy",
+        "skill3":"Comunication",
+        "skill4":"Problem resolution",
+        "skill5":"Team integration"
+    }
+}

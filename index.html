@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img 
+        id="toggle-icon"
+         src="assets/icons/moon.svg"
+          alt="icon theme" 
+          class="toggle-theme__icon"/>
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+
+<div id="flaggs" class="flaggs">
+  <div class="flaggs__item" data-language="es">
+    <img src="assets/images/ar.svg" alt="flag" class="flaggs__img">
+  </div>
+    <div class="flaggs__item" data-language="en">
+      <img src="assets/images/gb.svg" alt="flag" class="flaggs__img">
+    </div>
+
+</div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(0, 60%, 50%)" class="colors__item colors__item--red"></div>
+
+      <div data-color="hsl(90, 75%, 47%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(300, 45%, 48%)" class="colors__item colors__item--purple"></div>
+
+      <div data-color="hsl(46, 64%, 46%)" class="colors__item colors__item--orange"></div>
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="./assets/images/profile.png" alt="img de perfil" class="card__image"/>
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">Rocio Maturano</h2>
+          <p class="card__subtitle " data-section="profile" data-value="rol">Full Stack Developer</p>
+        </div>
+        <div class="card__body">
+
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:romaturano96@gmail.com">romaturano96@gmail.com</a>
+          </div>
+
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:3512275824">+54-3512275824</a>
+          </div>
+          <p class="card__text" data-section="profile" data-value="description">
+            Hace un año que me inserté en este nuevo muncho del IT.<br/>
+            Realmente es algo apasionante, me gusta mucho seguir desarrollandome cada vez un poco mas en lo que ya conozco como tambien aprender cosas nuevas.<br/>Me gustaria algun dia ser yo quien ayude a otros en estos primeros pasos.
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experience</h2>
+        <div class="experience">
+          <img src="assets/images/LogoCompany.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+        <p class="experience__time" data-section="experience" data-value="first-job-date">Abr 2023- May 2023</p>
+        <h3 class="experience__job" data-section="experience" data-value="first-job-title">BackEnd/Full Stack</h3>
+        <p class="experience__Description" data-section="experience" data-value="first-job-description">que hice en el proyecto</p>
+      </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/LogoCompany.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+        <p class="experience__time" data-section="experience" data-value="first-job-date">Abr 2023- May 2023</p>
+        <h3 class="experience__job" data-section="experience" data-value="first-job-title">BackEnd/Full Stack</h3>
+        <p class="experience__Description" data-section="experience" data-value="first-job-description">que hice en el proyecto</p>
+      </div>
+        </div>
+      </article>
+<article class="card card--hobbies">
+  <h2 class="card__title">Hobbies</h2>
+  <div class="card__image-container">
+    <img src="assets/images/hobbies.jpg" alt="Crossfit" class="card__image">
+  </div>
+  <h3 class="hobbie__title">Crossfit</h3>
+  <p class="card__text">mi hobbie va aca</p>
+</article>
+    </section>
+<section class="column column--right">
+  <article class="card">
+    <h2 class="card__title" data-section="card" data-value="card-title" >Full Stack Developer</h2>
+    <small data-section="card" data-value="card-time">Meses de experiencia</small>
+    <div class="skills">
+
+      <div class="skills__header">
+        <span class="skills__start-level">0</span>
+        <span class="skills__start-level">12</span>
+      </div>
+    </div>
+      <div class="skills">
+        <div class="skills__item">
+          <p class="skills__tech">React-Redux</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">HTML</p>
+          <div class="skills__bar skills__bar--50"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">JavaScript</p>
+          <div class="skills__bar skills__bar--70"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">JAVA</p>
+          <div class="skills__bar skills__bar--10"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech">Python</p>
+          <div class="skills__bar skills__bar--10"></div>
+        </div>
+      </div>
+    
+  </article>
+  <article class="card">
+    <h2 class="card__title" data-section="card2" data-value="card-time">Habilidades blandas</h2>
+    <small data-section="card2" data-value="card-time">Años de experiencia</small>
+    <div class="skills">
+
+      <div class="skills__header">
+        <span class="skills__start-level">0</span>
+        <span class="skills__start-level">10</span>
+      </div>
+    </div>
+      <div class="skills">
+        <div class="skills__item">
+          <p class="skills__tech" data-section="card2" data-value="skill1">Trabajo en equipo</p>
+          <div class="skills__bar skills__bar--90"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="card2" data-value="skill2">Empatia</p>
+          <div class="skills__bar skills__bar--90"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="card2" data-value="skill3">Comunicacion </p>
+          <div class="skills__bar skills__bar--90"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="card2" data-value="skill4">Resolucion de problemas</p>
+          <div class="skills__bar skills__bar--90"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech" data-section="card2" data-value="skill5">Integracion de equipos</p>
+          <div class="skills__bar skills__bar--90"></div>
+        </div>
+      </div>
+    
+  </article>
+  
+
+  <article class="card card--proyect">
+    <div class="card__image-container">
+      <img src="assets/images/homegirl.png" alt="Home Page" class="card__image">
+    </div>
+    <div class="proyect">
+      <div class="proyect__tags">
+        <span class="proyect__tag">#PostgresSQL</span>
+        <span class="proyect__tag">#JavaScript</span>
+        <span class="proyect__tag">#React-redux</span>
+        <span class="proyect__tag">#Tailwind</span>
+        <span class="proyect__tag">#Responsive</span>
+        <span class="proyect__tag">#Google Cloud</span>
+        <span class="proyect__tag">#Cloudinary</span>
+
+    </div>
+    <h2 class="card__title" data-section="proyects" data-value="first-proyect-title">E-commerce</h2>
+    <p class="card__text" data-section="proyects" data-value="first-proyect-description">Realizacion de un proyecto grupal con 6 compañeros utilizando la metodologia scrum para crear una pagina web e-commerce de productos de ropa deportiva</p>
+    <p class="card__text" data-section="proyects" data-value="first-proyect-description2">Funcionalidades: Listado de productos-Detalle de los mismos-Crear un producto nuevo por parte del administrador-Loguin de terceros-Perfilñ de usuario-Acciones de administrador: crear un administrador nuevo- bannear un cliente- deshabilitar un porducto por stock- consulta de stock- consulta de ordenes realizadas-Carrito-Ruta de pago.</p>
+  </div>
+    <div class="buttons">
+      <a href="#" class="button button--primary">Demo </a>
+      <a href="#" class="button button--ghost">Codigo</a>
+    </div>
+  </article>
+  <article class="card card--proyect">
+    <div class="card__image-container">
+      <img src="assets/images/foodHome.png" alt="Home Page" class="card__image">
+    </div>
+    <div class="proyect">
+      <div class="proyect__tags">
+        <span class="proyect__tag">#PostgresSQL</span>
+        <span class="proyect__tag">#JavaScript</span>
+        <span class="proyect__tag">#React-redux</span>
+        <span class="proyect__tag">#Responsive</span>
+     
+       
+
+    </div>
+    <h2 class="card__title">E-commerce</h2>
+    <p class="card__text">Realizacion de un proyecto grupal con 6 compañeros utilizando la metodologia scrum para crear una pagina web e-commerce de productos de ropa deportiva</p>
+    <p class="card__text">Funcionalidades: Listado de productos-Detalle de los mismos-Crear un producto nuevo por parte del administrador-Loguin de terceros-Perfilñ de usuario-Acciones de administrador: crear un administrador nuevo- bannear un cliente- deshabilitar un porducto por stock- consulta de stock- consulta de ordenes realizadas-Carrito-Ruta de pago.</p>
+  </div>
+    <div class="buttons">
+      <a href="#" class="button button--primary">Demo </a>
+      <a href="#" class="button button--ghost">Codigo</a>
+    </div>
+  </article>
+</section>
+
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
