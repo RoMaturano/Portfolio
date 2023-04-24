@@ -166,10 +166,14 @@ body.dark{
     font-size: 0.9rem;
     line-height: 1.6;
 }
-.card__image{
-width: 100%;
+.card__imageP{
+    min-width: 80%;
+    min-height: 50%;
 display: block;
+border-radius: var(--border-radius);
+margin-left: 10%;
 }
+
 .card__image{
     min-width: 100%;
     min-height: 80%;
@@ -254,9 +258,11 @@ border-radius: var(--border-radius);
     align-items: start;
     margin-bottom: 1em;
     padding: 1em;
+    
     border: 2px solid var(--primary-color);
     border-radius: var(--border-radius);
     transition: var(--transition);
+
 }
 
 .experience__image{
@@ -287,11 +293,12 @@ border-radius: var(--border-radius);
 }
 }
 .proyect__tags{
-    display: flex;
+    display:contents;
     justify-content: space-between;
     margin: 0.5em 0;
     font-size: 0.6rem;
     width: 275px;
+    
 }
 @media screen and (min-width:760px){
     .proyect__tags{
@@ -308,7 +315,9 @@ border-radius: var(--border-radius);
         transition: var(--transition);
         justify-content: space-between;
         margin: 1.5px;
+       
     }
+  
     .buttons{
         display: flex;
         justify-content: space-between;

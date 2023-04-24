@@ -1,18 +1,24 @@
 {
     "profile":{
         "rol":"Desarrollador Full Stack ",
-        "description":"   Hace un año que me inserté en este nuevo muncho del IT.<br/>Realmente es algo apasionante, me gusta mucho seguir desarrollandome cada vez un poco mas en lo que ya conozco como tambien aprender cosas nuevas.<br/>Me gustaria algun dia ser yo quien ayude a otros en estos primeros pasos."
+        "description":"Hace un año que me inserté en este nuevo mundo del IT.<br/>Realmente es algo apasionante,encanta seguir desarrollándome  cada vez más.<br/>Mi objetivo es convertirme en un experto en mi campo y algún día ayudar a otros a alcanzar sus objetivos en el mundo de la tecnología."
     },
     "experience":{
         "first-job-title":"haal",
         "first-job-date":"Abril 2023- Mayo 2023",
-        "first-job-description":"que hice en el proyecto"
+        "first-job-description":"Desarrollo del back: gran parte de sus funciones y rutas,desarrollo de la BD,  union back y front, ruta de pago, registro de una orden de compra, manejo de stock,ayuda a resolver conflictos."
     },
     "proyects":{
         "first-proyect-title":"E-commerce",
         "first-proyect-date":"Abril 2023- Mayo 2023",
         "first-proyect-description":"Realizacion de un proyecto grupal con 6 compañeros utilizando la metodologia scrum para crear una pagina web e-commerce de productos de ropa deportiva.",
-        "first-proyect-description2":"Funcionalidades: Listado de productos-Detalle de los mismos-Crear un producto nuevo por parte del administrador-Loguin de terceros-Perfilñ de usuario-Acciones de administrador: crear un administrador nuevo- bannear un cliente- deshabilitar un porducto por stock- consulta de stock- consulta de ordenes realizadas-Carrito-Ruta de pago."
+        "first-proyect-description2":"Funcionalidades:<br/> Listado de productos-Detalle de los mismos-Crear un producto nuevo por parte del administrador-Loguin de terceros-Perfil de usuario-Acciones de administrador: crear un administrador nuevo- bannear un cliente- deshabilitar un porducto por stock- consulta de stock- consulta de ordenes realizadas-Carrito-Ruta de pago."
+    },
+    "proyects2":{
+        "first-proyect-title":"Proyecto individual",
+        "first-proyect-date":"Marzo 2023- Abril 2023",
+        "first-proyect-description":"Realizacion de un proyecto individual evaluativo.",
+        "first-proyect-description2":"Funcionalidades:<br/>Una pagina principal (Landing) dando la bienvenida al proyecto, una pagina (Home) donde se mostraban las tarjetas (consumidas de una api),detalles de esas tarjetas,filtros combinados (a-z/ z-a, busqueda por nombre, rating de puntuacion)."
     },
     "card":{
         "card-title":"Desarrollador",

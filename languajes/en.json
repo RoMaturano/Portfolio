@@ -1,17 +1,23 @@
 {
     "profile":{
         "rol":"Full Stack Developer",
-        "description":"A year ago I joined this new world of IT.<br/>It really is something exciting, I really like to continue developing myself a little more each time in what I already know as well as learning new things.<br/>I would like some day it will be me who helps others in these first steps."
+        "description":"It's been a year since I entered this new world of IT. It's truly exciting and I love to keep developing myself more and more. My goal is to become an expert in my field and someday help others achieve their goals in the world of technology."
     },
     "experience":{
         "first-job-title":"BackEnd/Full Stack",
         "first-job-date":" April 2023- May 2023",
-        "first-job-description":"que hice en el proyecto"
+        "first-job-description":"Development of the back: a large part of its functions and routes, development of the DB, union back and front, payment route, registration of a purchase order, stock management, help to resolve conflicts."
     },
     "proyects":{
         "first-proyect-title":"E-commerce",
         "first-proyect-description":"Carrying out a group project with 6 colleagues using the scrum methodology to create an e-commerce website for sportswear products.",
-        "first-proyect-description2":"Functions: List of products-Detail of them-Create a new product by the administrator-Third-party login- User profile-Administrator actions: create a new administrator- ban a client- disable a product due to stock- stock inquiry- inquiry of orders made-Cart-Payment route."
+        "first-proyect-description2":"Functions: List of products,Detail of products,Creation of new products by the administrator,Third-party login, User profile,Shopping cart,Payment route,Administrator actions, including: Creation of new administrators,Banning a client,Disabling a product due to low stock,Checking stock levels,Checking orders made."
+    },
+    "proyects2":{
+        "first-proyect-title":"Individual project",
+        "first-proyect-date":"Marzo 2023- Abril 2023",
+        "first-proyect-description":"Realization of an individual project.",
+        "first-proyect-description2":"Functions:A main page (landing page) welcoming the user to the project, a  home page where cards are displayed( consumed from an API),detailed view of the cards, Combined filters for the cards, including:Sorting by name (A-Z or Z-A),search by name,rating by punctuation"
     },
     "card":{
         "card-title":"Developer",

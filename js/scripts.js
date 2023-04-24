@@ -9,8 +9,10 @@ const texttoChange= document.querySelectorAll("[data-section]")
 
 
 const changeLanguaje= async (language)=>{
+
+    
     const request= await fetch(`../languajes/${language}.json`)
-  
+  console.log(request,"request");
     const texts= await request.json()//${language}.json
     for (let text of texttoChange) {
    
@@ -20,6 +22,7 @@ const changeLanguaje= async (language)=>{
     }
 }
 flaggsElemenet.addEventListener('click',(e)=>{
+ 
     changeLanguaje(e.target.parentElement.dataset.language)
 })
 
@@ -36,6 +39,5 @@ toggleTheme.addEventListener("click",()=>{
 
 
 toggleColors.addEventListener("click",(e)=>{
-    console.log(e.target.dataset);
     rootStyles.setProperty("--primary-color",e.target.dataset.color)
 })
