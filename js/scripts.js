@@ -11,7 +11,7 @@ const texttoChange= document.querySelectorAll("[data-section]")
 const changeLanguaje= async (language)=>{
 
     
-    const request= await fetch(`../languajes/${language}.json`)
+    const request= await fetch(`../Portfolio/languajes/${language}.json`)
     const texts= await request.json()//${language}.json
     console.log(request,"request");
     for (let text of texttoChange) {
@@ -27,6 +27,7 @@ flaggsElemenet.addEventListener('click',(e)=>{
 })
 
 toggleTheme.addEventListener("click",()=>{
+    
     document.body.classList.toggle("dark")
     if(toggleIcon.src.includes("moon.svg")){
         toggleIcon.src="assets/icons/sun.svg"
