@@ -12,8 +12,8 @@ const changeLanguaje= async (language)=>{
 
     
     const request= await fetch(`../languajes/${language}.json`)
-  console.log(request,"request");
     const texts= await request.json()//${language}.json
+    console.log(request,"request");
     for (let text of texttoChange) {
    
         const section=text.dataset.section
